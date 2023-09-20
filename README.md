@@ -9,7 +9,7 @@
 ## Usage
 
 ```js
-const pluralize = require('./pluralizer.js')
+import pluralizer from '../../node_modules/pluralizer-for-js/pluralizer.js'
 
 const result = pluralize(178573, 'яблоко', 'яблока', 'яблок');
 console.log(result);
