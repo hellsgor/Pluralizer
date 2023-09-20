@@ -1,8 +1,8 @@
 'use strict'
 
-module.exports = pluralize;
+module.exports = pluralizer;
 
-function pluralize(startNumber, singular, plural, pluralGreaterThan4) {
+function pluralizer(startNumber, singular, plural, pluralGreaterThan4) {
   const number = startNumber % 100;
   let persuade;
   if (number >= 11 && number <= 19) {
