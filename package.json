@@ -1,0 +1,20 @@
+{
+  "name": "pluralizer-for-js",
+  "version": "1.0.0",
+  "description": "Returns the desired declension of a word depending on the numeral",
+  "main": "pluralizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellsgor/Pluralizer.git"
+  },
+  "keywords": [],
+  "author": "hellsgor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hellsgor/Pluralizer/issues"
+  },
+  "homepage": "https://github.com/hellsgor/Pluralizer#readme"
+}
