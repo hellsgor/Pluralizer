@@ -1,5 +1,3 @@
-'use strict'
-
 export function pluralizer(startNumber, singular, plural, pluralGreaterThan4) {
   const number = startNumber % 100;
   let persuade;
@@ -20,5 +18,5 @@ export function pluralizer(startNumber, singular, plural, pluralGreaterThan4) {
         persuade = pluralGreaterThan4;
     }
   }
-  return `${startNumber} ${persuade} `;
+  return `${startNumber} ${persuade}`;
 }
