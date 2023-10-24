@@ -1,8 +1,8 @@
 {
   "name": "pluralizer-for-js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Returns the desired declension of a word depending on the numeral",
-  "main": "pluralizer.js",
+  "main": "pluralizer.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
