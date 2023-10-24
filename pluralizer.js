@@ -1,7 +1,5 @@
 'use strict'
 
-module.exports = pluralizer;
-
 function pluralizer(startNumber, singular, plural, pluralGreaterThan4) {
   const number = startNumber % 100;
   let persuade;
