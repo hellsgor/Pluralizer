@@ -1,4 +1,4 @@
-export function pluralizer(startNumber, singular, plural, pluralGreaterThan4) {
+export function pluralizer(startNumber, singular, plural, pluralGreaterThan4, shouldReturnNumber) {
   const number = startNumber % 100;
   let persuade;
   if (number >= 11 && number <= 19) {
@@ -18,5 +18,5 @@ export function pluralizer(startNumber, singular, plural, pluralGreaterThan4) {
         persuade = pluralGreaterThan4;
     }
   }
-  return `${startNumber} ${persuade}`;
+  return shouldReturnNumber ? `${startNumber} ${persuade}` : persuade;
 }
